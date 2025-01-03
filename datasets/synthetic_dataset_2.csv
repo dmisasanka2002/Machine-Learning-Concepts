@@ -1,0 +1,101 @@
+CustomerID,Age,AnnualIncome,SpendingScore,CreditScore,Occupation,Region,HomeOwnershipStatus,Feedback,TransactionDate,
+1,59,129789.4,38,529,Doctor,North,Rented,Could start financial commercial last leader economic.,12/25/2023,0
+2,72,117151.61,24,664,Teacher,West,Owned,Commercial quite scene want century however college necessary wear.,5/26/2024,0
+3,49,90159.98,69,737,Unemployed,North,Mortgaged,Forget career what fall easy suggest financial room.,2/23/2023,0
+4,35,96277.65,98,582,Engineer,Central,Owned,House assume finally human floor school organization season something defense response.,8/17/2024,0
+5,63,145483.19,70,326,Unemployed,East,Mortgaged,Call east wonder their great same student common next staff ability lose civil.,8/4/2023,1
+6,28,98914.45,86,525,Clerk,East,Mortgaged,Alone against way nor nice with message until.,5/16/2024,0
+7,41,55879.89,11,576,Unemployed,North,Owned,Activity range without others strong the yeah company also new last keep fight.,6/25/2022,0
+8,,58515.56,16,583,Engineer,West,Rented,Development employee personal class common season help store measure happen.,8/23/2024,0
+9,78,41484.7,97,780,,West,Mortgaged,Grow situation black customer PM series company example increase.,7/7/2024,0
+10,39,22032.73,73,752,Unemployed,Central,Owned,People fish color black religious my Congress coach leader debate.,4/13/2023,0
+11,43,75042.19,,815,Clerk,North,Owned,Them benefit current someone kid eye once.,12/9/2022,0
+12,31,71334.6,70,846,Doctor,East,Rented,Challenge wife type recognize TV project than throughout program foreign.,10/28/2023,1
+13,31,58153.46,80,491,Doctor,West,,Service operation history inside best toward buy there modern add through.,6/20/2024,0
+14,44,21830.38,93,348,Unemployed,North,Mortgaged,Heavy suddenly quickly discussion senior size someone rule prove project avoid.,9/26/2023,1
+15,73,45849.51,3,811,Clerk,West,Owned,Reduce available specific turn green deal traditional common able idea.,9/20/2024,1
+16,56,,20,316,Engineer,West,Owned,Fund fire the determine agreement expect guy about radio reflect cold occur group.,4/30/2023,0
+17,60,122722.82,59,471,Unemployed,East,Rented,Issue hand from allow establish floor field commercial politics authority court.,8/25/2023,0
+18,44,98774.8,36,519,Doctor,,Rented,Economy cut herself center city two stuff huge full law message.,3/22/2023,0
+19,23,140419.11,19,457,Doctor,Central,Mortgaged,Under information indeed way close thank.,3/14/2024,0
+20,42,104640.01,90,776,Unemployed,Central,Mortgaged,Town meet herself third answer character good learn third PM federal.,1/10/2023,0
+21,73,138944.76,67,345,Clerk,East,Owned,Little call senior house into instead something painting.,8/15/2022,0
+22,22,130505.02,19,672,Doctor,West,Mortgaged,Sing he hotel rich man light pull certain right author open partner.,,0
+23,44,78428.59,20,817,Clerk,North,Rented,Talk pick evening gas own do itself smile anyone much.,12/16/2022,1
+24,64,32403.32,96,,Doctor,West,Rented,Figure how consider pattern memory break probably have effort understand.,10/17/2023,1
+25,50,68206.37,71,336,Doctor,East,Owned,Specific apply want media statement often style leg range late energy.,5/12/2022,0
+26,58,106949.36,52,579,Teacher,Central,Rented,Yard through career face six baby admit thing parent here method forward toward.,9/8/2024,1
+27,22,106569.91,33,648,Doctor,West,Rented,Build kitchen pick city reach interesting organization there former.,2/24/2023,0
+28,41,96868.71,40,796,Engineer,Central,Rented,Stock back above pattern think glass ready role professional today consider inside issue.,4/23/2022,0
+29,53,55713.83,39,601,Unemployed,North,Rented,Five choice perhaps sign perform conference play.,3/4/2024,0
+30,32,92961.65,82,480,Unemployed,Central,Owned,Color now behind have cut impact artist raise man choose.,8/31/2023,0
+31,78,69780.49,1,398,Clerk,Central,Owned,Different evening capital south service fine.,4/11/2023,0
+32,42,146322.57,11,415,Doctor,South,Mortgaged,Wait attention drive poor pressure remain.,3/2/2023,0
+33,64,130358.8,92,490,Engineer,South,Rented,Respond section without black face account.,10/12/2023,0
+34,45,113824.84,57,552,Clerk,South,Mortgaged,These dream place have huge chance which hold small.,4/15/2022,1
+35,69,50678.04,89,460,Teacher,Central,Owned,Work nice generation entire main forget else.,6/13/2022,0
+36,47,53288.88,50,555,Clerk,East,Owned,Administration back nice common pretty yet than enough far strategy college.,10/31/2024,0
+37,79,25256.37,23,622,Clerk,Central,Owned,Recognize policy conference as beat each push probably follow where hold father.,5/30/2024,0
+38,62,112386.18,31,427,Doctor,East,Owned,Must month budget mission memory memory face ok create around street.,12/26/2023,0
+39,48,,94,317,Teacher,East,Owned,Discussion my believe we not former.,7/28/2024,0
+40,36,77113.75,42,622,Clerk,South,Owned,Glass soldier though not above phone many think kind out themselves cell.,10/15/2024,1
+41,35,46223.5,99,587,Engineer,West,Owned,Like notice keep early skill dinner floor.,7/15/2024,0
+42,67,136449.27,7,454,Engineer,North,Rented,Truth reveal crime mother check suffer evening since fear issue other.,2/16/2023,0
+43,71,81798.13,16,,Unemployed,South,Mortgaged,Above method south attorney Democrat might interview again guy start.,9/23/2022,0
+44,64,93225.82,90,685,Teacher,South,Owned,Suffer ever nature respond my town now little.,4/4/2022,0
+45,75,110417.09,60,403,Teacher,West,,Natural citizen anything more specific imagine peace image middle become.,11/19/2023,0
+46,,38113.09,2,692,Unemployed,North,Rented,Tend tend middle series manager real.,7/25/2022,0
+47,77,98574.26,1,545,Clerk,Central,Mortgaged,Fund will reason mention player mean north pass too history oil accept.,4/7/2024,0
+48,23,90179.34,,475,Teacher,Central,Owned,Color policy wrong arm cut generation among daughter marriage attention one area public.,10/7/2023,0
+49,57,46397.96,12,338,Engineer,South,Mortgaged,Indicate certain inside society account anything provide ahead pass music able.,10/12/2022,0
+50,71,142570.96,69,776,Engineer,North,Owned,Avoid myself by trade seek yard your pass box research.,7/10/2022,0
+51,27,97852.51,37,837,Doctor,,Rented,Help good middle pattern ground you.,1/22/2024,0
+52,41,110322.04,32,707,Teacher,East,Rented,Five main play nor which kid.,,0
+53,29,134460.82,9,824,Clerk,South,Rented,Indeed final tax camera teach point.,8/5/2024,0
+54,59,101166.03,99,805,Unemployed,South,Rented,She citizen college throughout quickly throughout single see marriage expect.,4/16/2022,0
+55,38,58432.38,19,335,Unemployed,Central,Mortgaged,Camera dinner position stage full mission source parent.,4/4/2022,0
+56,24,33714.25,48,319,Clerk,Central,Owned,Enough write the for wind house line act machine indeed off citizen suddenly.,4/16/2023,0
+57,45,79349.49,80,620,,Central,Owned,Computer you include enter four spend.,1/16/2022,1
+58,34,48397.26,3,811,Unemployed,East,Mortgaged,Ago everybody interest past sport stage try risk back doctor.,8/19/2024,0
+59,70,74146.29,20,699,Teacher,Central,Owned,School action recent increase middle billion believe.,7/30/2023,1
+60,78,134826.43,24,770,Doctor,North,Rented,As something agent reality as issue what education onto discussion computer.,2/20/2022,0
+61,29,62164.85,54,442,Teacher,West,Owned,Bad human population purpose computer election possible difficult defense leader rich power.,12/27/2023,0
+62,46,35871.43,33,391,Engineer,North,Rented,Name despite clearly cost data really draw cost.,4/17/2024,1
+63,73,66318.72,24,653,Doctor,North,Mortgaged,Week use up blood per hold mention.,12/19/2023,0
+64,22,137887.7,75,350,Unemployed,Central,Owned,History fly fund alone protect such produce collection long.,4/12/2023,0
+65,40,55377.19,72,489,Doctor,West,Mortgaged,Loss man stay room sport family again impact bit tax.,8/13/2023,0
+66,48,104199.72,36,424,Doctor,West,Owned,Tonight something option wrong care prepare brother cause.,7/1/2023,0
+67,67,20067.65,38,449,Doctor,West,Rented,Drive exist cause appear present day fish among yourself play agreement thousand.,10/12/2022,0
+68,27,65833.95,84,613,Doctor,East,Mortgaged,Side collection discussion camera politics those break audience send rather hot sit.,2/3/2024,0
+69,64,59621.56,99,641,Teacher,Central,Owned,Rate worker American various air knowledge let action his citizen any charge.,8/7/2023,1
+70,28,41405.26,89,604,Engineer,West,Rented,Trip study serve Mr final control marriage between.,10/16/2023,0
+71,67,89431.62,99,353,Clerk,East,Mortgaged,Recent these age keep own box.,10/5/2022,0
+72,55,83027.9,25,743,Doctor,South,Mortgaged,Land sense word fall world TV east ask reduce have other bank base.,10/9/2023,0
+73,34,110016.68,93,563,Unemployed,South,Owned,As specific including grow its amount this purpose federal resource.,6/7/2022,0
+74,37,55023.6,18,352,Doctor,East,Owned,Home management buy word war fast pay.,1/27/2022,0
+75,56,51736.32,82,304,Unemployed,East,Owned,Light list clear listen all statement sense learn class.,3/15/2024,0
+76,70,41877.84,66,402,Teacher,Central,Rented,Cause civil radio knowledge ball when class ability civil.,4/1/2023,0
+77,60,48439.35,54,495,Unemployed,Central,Owned,Most maintain truth sure only building experience young lot particular such story brother.,2/3/2022,0
+78,,92553.26,35,649,Clerk,South,Mortgaged,Test family coach half during clearly instead rest skin.,9/12/2024,0
+79,22,72498.7,80,346,Engineer,West,Mortgaged,Religious effect attack company see attack yet thus three sing visit.,2/27/2023,0
+80,26,28435.99,61,568,Unemployed,South,Owned,Cut talk performance standard conference husband free strategy body able what guess.,7/10/2023,1
+81,74,53009,41,669,Unemployed,West,Owned,Machine born see line black there green.,6/20/2023,0
+82,62,52093.89,33,405,Engineer,West,Mortgaged,Claim case history draw century happy church itself music mother bill forward surface.,1/16/2024,0
+83,24,110519.56,68,419,,Central,Rented,Skill charge require television development course care animal upon mind future every how.,3/2/2023,1
+84,74,112595.18,33,357,Doctor,North,Owned,Individual defense according writer owner red fall avoid from ever boy.,4/17/2024,0
+85,49,39251.3,14,645,Unemployed,North,Owned,Now out factor up what pass career or place listen.,10/24/2022,1
+86,38,149706.26,,773,Engineer,East,Mortgaged,Again get view few blue total car.,9/8/2024,0
+87,46,54681.53,48,416,Teacher,Central,Owned,Program different main close assume visit bill bit.,8/26/2023,0
+88,64,146959.94,20,426,Engineer,West,Rented,Hundred turn nice various check charge read process detail.,2/28/2022,0
+89,54,73434.81,8,692,Teacher,North,Mortgaged,Hotel reveal sell off conference avoid gas baby recently.,1/14/2023,0
+90,30,24296.6,7,357,Clerk,West,Owned,Environmental degree management hold indeed college week eye nature hold.,8/30/2024,0
+91,56,64859.26,67,812,Doctor,,Mortgaged,Common statement team middle property rather move sense.,1/23/2022,0
+92,34,102465.67,17,395,Engineer,North,Owned,Quality gas common receive recently land.,8/12/2023,0
+93,51,108491.71,33,417,Unemployed,North,Owned,Page act animal television every consumer capital.,,0
+94,68,89021.5,48,787,Clerk,Central,Owned,Particularly many particular century television memory rock better quite red culture president lot.,9/27/2024,1
+95,35,78211.81,76,,Engineer,South,Rented,Less discover pull hour special energy program around service environment mind section mention perhaps.,4/18/2022,0
+96,28,91876.1,59,571,Unemployed,West,Rented,Order maybe character community society pull expert chance pretty catch course.,3/27/2022,0
+97,34,97050.57,86,488,Engineer,Central,Mortgaged,Game ready over message provide speech article.,4/26/2023,1
+98,43,30510.93,22,746,Teacher,Central,Owned,Position ground finish group environment matter.,6/29/2023,0
+99,77,68055.08,30,546,Engineer,Central,,Present brother beyond media point respond spend contain pull.,4/29/2022,0
+100,60,,38,375,Engineer,Central,Rented,From city time parent parent use color.,2/10/2023,0

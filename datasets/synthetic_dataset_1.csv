@@ -1,0 +1,107 @@
+CustomerID,Age,Gender,MaritalStatus,EducationLevel,Salary,ExperienceYears,PurchaseAmount,CustomerReview,SignupDate,IsChurn
+1,56,Male,Married,PhD,99169.86,5,4755.51,Turn natural begin full choose.,6/15/2023,1
+2,69,Male,Married,PhD,33924.34,12,2888.52,Hold describe despite. Part end reflect north analysis often take. Eye student their decide itself.,8/26/2024,1
+3,46,Male,Divorced,High School,119509.55,,3177.59,Own whether fight give door. Down along test network happen religious. Else reveal memory finally.,2/20/2023,0
+4,32,Male,Married,Bachelor's,72295.01,26,2269.81,Lead course cut after system computer only. Area nothing current box. This film image give effect.,11/10/2024,0
+5,,Male,Divorced,High School,55160.43,26,1501.39,Sign win respond whether follow. Catch describe bag today.,4/7/2022,0
+6,25,Female,Single,PhD,109514.46,21,,Do whatever box eight. Seat baby last attorney lay door want.,4/24/2022,1
+7,38,Male,Divorced,Bachelor's,97294.69,39,3378.97,Author method from early sort speech service. Old indeed key blood analysis fill wife cut.,12/25/2023,1
+8,56,Female,Married,PhD,115776.47,36,3774.25,Maybe if baby last let. Company traditional treat article risk explain.,1/11/2022,0
+9,36,Female,Single,High School,59767.53,33,3968.32,Include should back during security. Stock age artist.,7/2/2021,0
+10,40,Female,Single,High School,79748.85,30,3958.61,Direction road production. Seven against old strong myself each hair.,9/5/2022,0
+11,28,,Single,PhD,81506.32,37,501.47,Go daughter suggest purpose father worker. Issue few end tough page individual.,8/5/2020,1
+12,28,Male,Divorced,Master's,118229.84,23,2497.38,One message news up. Explain country professional moment cover television over project.,8/10/2020,1
+13,41,Male,Married,Master's,36781.16,10,334.92,Civil ten service able receive begin senior. Few region black police in.,,1
+14,53,Male,Single,High School,57512.73,5,2770.17,Dream lay eight. Past tend increase free.,6/2/2024,0
+15,57,Female,Single,High School,47181.99,36,2235.58,Feel police but scene beat describe he. Food relate truth office rich instead himself.,4/28/2020,0
+16,41,Male,,Master's,54162.74,34,4444.14,Imagine read next well. Poor audience everybody go career clear middle.,9/29/2020,0
+17,20,Male,Divorced,Master's,73675.19,31,1787.03,Fish else throw performance little trade.,3/5/2024,0
+18,39,Male,Divorced,PhD,63541.82,10,629.48,"Beat thing try activity. At continue despite economy check.
+Course myself happen sell.",6/2/2024,1
+19,19,Male,Married,PhD,,19,757.81,Success window single toward religious look race. Skill program bring life.,11/5/2020,1
+20,41,Male,Divorced,Master's,105979.18,32,3819.48,Leave join soon three region Congress against wear. Rich read after them feeling stop.,5/13/2024,1
+21,61,Female,Single,PhD,113701.52,1,3110.18,Each tell upon ten building. Interview simply close.,5/11/2024,1
+22,47,Male,Married,PhD,36337.45,5,550.56,Travel together support reason science. Relate attack even test perform.,4/23/2024,0
+23,55,Female,Single,,48802.68,4,466.33,Admit serious per our author street success play. Better may travel because onto whatever his baby.,1/13/2020,1
+24,19,Male,Single,PhD,90402.92,16,3519.8,There wait effect expert team. These action step whether. South serious body stuff.,4/4/2024,1
+25,38,Female,Divorced,High School,62278.21,24,410.18,Light agency movie state policy enter. Off actually effort. Growth scene billion others fast.,9/10/2023,1
+26,50,Male,Married,PhD,52874.73,16,4118.21,Onto general store. Tv professional total teacher range night later.,5/3/2023,0
+27,29,Male,Divorced,PhD,56576.15,2,3545.9,Draw tonight push training TV. Mean site general officer though.,3/22/2022,0
+28,39,Female,Divorced,Master's,59029.57,28,452.68,Must we who discover region. Read professional owner usually draw camera ten.,3/4/2021,0
+29,61,Female,Married,High School,106380.28,32,,Where describe admit. Onto interest his let beyond.,8/1/2021,1
+30,42,Female,Single,PhD,42295.92,27,4933.87,Reality try plant discussion. Front notice success under condition value.,10/5/2023,0
+31,66,Male,Single,PhD,93801.99,20,1902.64,Figure technology medical space far argue. Might middle investment writer right.,7/15/2024,0
+32,44,Female,Married,Bachelor's,79753.8,24,1884.68,Stuff participant enjoy. Do station open do politics room art.,10/8/2024,0
+33,59,Male,Single,PhD,56685.91,12,4073.36,Role friend same important check.,1/27/2022,0
+34,45,Male,Married,PhD,67780.28,35,4738.88,Prevent kid paper about early road.,4/6/2023,0
+35,33,Female,Married,Bachelor's,53058.62,33,4930.71,Condition seem food. Particular design section company.,5/26/2023,0
+36,32,Female,Divorced,Master's,85036.23,33,3779.22,Drug boy trial marriage. Behind at role money walk event voice. Rock leader free new week.,3/14/2023,0
+37,64,Male,Married,PhD,37343.48,37,1912.48,Then age as successful you attention. Center me stage dream.,12/2/2021,0
+38,68,Male,Divorced,Bachelor's,30466.64,12,463.33,Community throw be size suddenly nothing. Mind huge short green health before.,6/2/2022,1
+39,61,Female,Single,High School,86510.5,3,3896.88,Model beautiful recently save something because work. Window next end word.,7/2/2024,0
+40,69,Female,Single,Master's,47484.66,1,2814.1,Physical race thank financial chair exactly clear security. Middle between inside.,10/4/2023,1
+41,20,Female,Single,High School,36384.68,,2149.9,Network property model political eat. Economy then try. We paper listen doctor white eat.,8/15/2020,0
+42,54,Male,Single,High School,65710.54,10,4536.45,Interest always price.,11/1/2021,0
+43,68,Male,Divorced,Bachelor's,34569.17,29,600.43,Ask child value develop.,2/18/2024,1
+44,24,Male,Single,PhD,109795.54,13,2488.49,Eat air reach child. Fish relationship behind kind follow country team.,11/27/2022,0
+45,38,Male,Married,Bachelor's,32485.51,12,106.2,Member product leave. Recent season tax.,,0
+46,26,Male,Married,Bachelor's,82097.84,31,2369.87,Scene down address never action. Have compare positive break station leg.,9/7/2021,0
+47,56,Male,Married,Bachelor's,69462.67,2,328.7,Audience huge able sometimes true unit.,6/21/2023,1
+48,35,Female,Divorced,Bachelor's,90482.35,35,638.15,Dog system degree than. Wrong close on crime. Investment different yeah.,8/19/2021,0
+49,21,Male,Single,Master's,59533.74,23,631.75,Learn organization writer two land. Simple letter game figure.,12/31/2020,1
+50,42,Male,Single,PhD,43953.75,17,3263.59,"Doctor rest ok assume. Effect enjoy form agency statement series.
+Learn field suddenly same.",4/14/2020,0
+51,31,Male,Single,High School,118365.68,26,3742.92,Reach thank center friend decision. All weight where already song oil.,1/6/2020,0
+52,67,Female,Divorced,High School,105504.02,8,2937.68,People true story day their though report. Exactly structure provide interview certain.,5/26/2022,0
+53,26,Male,Married,PhD,107436.42,29,4812.75,Later social speech little practice. Around talk soldier provide know church feeling.,4/16/2021,0
+54,43,Male,,High School,52522.62,26,1905.61,Eight day child night. Hard third today media TV until.,10/13/2021,0
+55,19,Female,Single,PhD,33495.13,10,1464.27,After pretty task right join act expect support.,6/26/2021,0
+56,37,Male,Married,High School,57293.9,26,4349.57,Will political production need born.,2/17/2022,0
+57,45,Male,Married,Bachelor's,78337.42,34,1156.8,"Region talk away water century when heavy thank. Bring anything would deal us.
+Foot pay court pay.",10/29/2024,1
+58,64,Male,Divorced,High School,59398.61,7,4817.95,Assume this four suddenly bit keep. Culture take wrong skin according although.,7/27/2023,0
+59,24,Male,Divorced,PhD,104508.21,4,110.16,Bank step here defense money. Couple rock step ok no.,4/27/2024,0
+60,61,Male,Divorced,PhD,54438.86,11,4850.9,Team research party onto. General such price authority.,1/28/2023,1
+61,25,Female,Divorced,PhD,116872.66,29,263.64,President our Mr discussion little family.,4/28/2024,0
+62,64,Female,Single,PhD,71153.86,36,4461.16,Blue increase standard enter lead. Answer during than color provide result.,6/12/2022,0
+63,52,Female,Divorced,PhD,105782.08,25,2662.12,System now chair fight later of. Other boy grow paper reality use. Personal job item your own.,1/11/2022,1
+64,31,Male,Married,Master's,47494.2,21,4965.18,Deal put compare pattern music assume. For bill organization rock. Tell sing meeting rest.,11/9/2023,1
+65,34,Male,Single,,67021.85,36,415.29,Change consider successful paper allow step. Page our evidence contain.,2/5/2024,0
+66,53,Male,Married,High School,92956.1,10,,Under interview while film mouth. House admit may.,12/25/2020,1
+67,67,Female,Married,PhD,42451.78,37,4848.05,Pull treatment production sure job least along. Occur during perhaps computer.,7/23/2020,0
+68,57,Male,Married,High School,41947.09,9,2639.33,She among ball man analysis ball financial.,4/9/2020,0
+69,21,Male,Divorced,PhD,117258.32,24,3165.52,Want guess meeting condition. Clear hospital expert point education.,5/27/2023,0
+70,19,Female,Divorced,PhD,94313.56,35,3493.96,Deal simple big role. Population thus purpose support.,7/7/2024,1
+71,23,Male,Single,Master's,33696.08,35,2299.98,Avoid great pattern move series politics increase. Doctor year might effect now behavior method.,1/25/2020,0
+72,59,Female,Single,Master's,65893.88,36,3156.41,Mean if whole key identify country.,,0
+73,,Female,Divorced,Bachelor's,69016.87,18,2942.36,Outside cut room any term.,6/24/2021,0
+74,46,Female,Married,Master's,,39,4510.73,Third it wide of. Glass address president form live outside article.,5/29/2022,0
+75,35,Male,Single,Bachelor's,52577.45,32,274.96,Just herself difficult white we guess pass. Expert consumer across cost weight.,11/2/2021,0
+76,43,Male,Divorced,Bachelor's,46590.03,24,1440.77,Majority or the since seven team become. Law bag when brother cold.,2/20/2024,0
+77,61,Male,Divorced,Bachelor's,37278.57,23,4754.54,Trouble a stay yourself budget way. Break real he station either customer.,12/24/2020,0
+78,51,Male,Divorced,Bachelor's,68548.3,32,4456.81,Economic poor expert analysis capital be. Society will mother.,9/3/2020,0
+79,27,Male,Married,Bachelor's,91964.99,37,2305.5,Of race appear over behavior song. War during pass within.,9/10/2021,0
+80,53,Male,Divorced,High School,35237.42,12,3119.66,Return play grow. Remain speak service opportunity show budget school. Price rate his send.,8/21/2020,0
+81,31,Male,Divorced,Master's,112369.24,13,1423.04,Already against picture science trouble.,10/2/2023,0
+82,48,Female,Divorced,Bachelor's,69811.7,23,981.2,Million lead age community.,3/5/2023,0
+83,65,Male,Divorced,PhD,51580.86,25,2345.31,Would look before hot able small member. Thus action region.,6/23/2023,1
+84,32,Female,,Master's,38448.6,35,1799.09,Eight leader question avoid rule successful. White of hot fish.,7/2/2022,0
+85,25,Male,Single,Master's,46457.94,30,2939.1,Not television hot realize. Economy it town house single garden necessary.,9/3/2022,0
+86,31,Male,Divorced,Bachelor's,114115.26,17,434.79,Although final arrive performance. Pattern left executive walk feeling.,11/11/2022,0
+87,40,Male,Married,High School,87444.35,20,4873.25,Your bar pick out take loss. Not stay those political else.,10/5/2023,0
+88,57,Female,Single,Bachelor's,76502.66,25,4931.74,"Technology eight appear account man edge. Believe any here.
+Go other address top administration.",10/26/2024,0
+89,38,Female,Divorced,High School,89140.02,22,3505.9,Election develop us company. News form clearly personal.,3/15/2021,0
+90,33,Female,Single,PhD,69210.56,13,2703.68,Perform onto consider wind. Him listen recognize place.,2/17/2022,0
+91,62,Female,Single,Master's,95703.54,19,,Morning bank rise minute protect until thousand general. Would summer police check after exactly.,8/4/2024,0
+92,35,Male,Married,PhD,34294.45,36,4078.29,Music he let. Herself reflect alone agency lose.,10/28/2024,0
+93,64,,Divorced,High School,80943.35,12,3439.42,Answer bad her life cost policy. Against manager day guess. Fine range area member everything play.,2/27/2020,0
+94,41,Male,Divorced,High School,44278.18,19,854.95,"Never size wide life risk old. Real throughout likely best.
+Plan also focus chair loss.",7/29/2022,0
+95,43,Male,Married,PhD,40814.82,12,4559.09,Page those cut interesting friend. Eight describe various life could purpose staff nearly.,,0
+96,42,Female,Married,High School,60769.17,,4121.56,"Former pull what sport.
+True member list child million tell decision. Professor citizen once.",9/23/2024,0
+97,62,Female,Divorced,PhD,38261.92,7,4751.51,Player enough carry make office whether. Vote those under pretty federal this senior.,4/30/2022,0
+98,58,Female,Divorced,Master's,38474.13,28,3642.31,Grow oil civil while. Kind head hair campaign mother training gun type. Nature bank loss.,1/30/2022,0
+99,46,Female,Married,PhD,58027.2,14,3086.41,Heavy speech Congress field state. Admit although chair doctor what husband great.,11/10/2021,0
+100,32,Female,Single,Master's,118155.95,31,2120.3,Agree collection case whole figure much explain. Easy various debate glass relate fund strategy.,8/1/2022,1

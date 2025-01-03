@@ -1,0 +1,173 @@
+# **Scikit-learn Library Overview**
+
+Scikit-learn is a powerful Python library for machine learning. It provides efficient tools for data preprocessing, model training, evaluation, and advanced techniques such as text processing, pipelines, and anomaly detection. Below is an organized summary of the Scikit-learn modules and their respective classes, enabling users to understand their purposes and easily import them when needed.
+
+---
+
+## **1. Data Preprocessing (`sklearn.preprocessing`)**
+
+Preprocessing involves preparing raw data for machine learning models by scaling, encoding, or transforming it.
+
+| **Class/Function**               | **Purpose**                                                   |
+|----------------------------------|---------------------------------------------------------------|
+| `sklearn.preprocessing.StandardScaler` | Standardizes features by removing the mean and scaling to unit variance. |
+| `sklearn.preprocessing.MinMaxScaler`   | Scales data to a specified range (default: [0, 1]).           |
+| `sklearn.preprocessing.Normalizer`     | Scales each sample to have a unit norm.                      |
+| `sklearn.preprocessing.Binarizer`      | Converts continuous values into binary values using a threshold. |
+| `sklearn.preprocessing.OneHotEncoder`  | Encodes categorical features as one-hot numeric arrays.       |
+| `sklearn.preprocessing.LabelEncoder`   | Converts categorical labels into integer labels.             |
+| `sklearn.preprocessing.PolynomialFeatures` | Generates polynomial and interaction features.               |
+| `sklearn.preprocessing.FunctionTransformer` | Custom transformations for preprocessing data.              |
+
+---
+
+## **2. Model Selection and Hyperparameter Tuning (`sklearn.model_selection`)**
+
+This module is used to split datasets, perform cross-validation, and optimize hyperparameters.
+
+| **Class/Function**               | **Purpose**                                                   |
+|----------------------------------|---------------------------------------------------------------|
+| `sklearn.model_selection.train_test_split` | Splits datasets into training and testing subsets.            |
+| `sklearn.model_selection.GridSearchCV`      | Exhaustive search over a parameter grid for hyperparameter tuning. |
+| `sklearn.model_selection.RandomizedSearchCV`| Randomized search for hyperparameter optimization.            |
+| `sklearn.model_selection.cross_val_score`   | Evaluates a model using cross-validation.                     |
+| `sklearn.model_selection.KFold`             | K-Fold cross-validation.                                      |
+| `sklearn.model_selection.StratifiedKFold`   | Stratified K-Fold cross-validation to maintain class balance. |
+
+---
+
+## **3. Supervised Learning Algorithms**
+
+### **3.1. Classification Models**
+
+| **Class**                               | **Purpose**                                                   |
+|-----------------------------------------|---------------------------------------------------------------|
+| `sklearn.linear_model.LogisticRegression` | Logistic regression for binary and multi-class classification.|
+| `sklearn.svm.SVC`                       | Support Vector Classifier for separating classes with hyperplanes. |
+| `sklearn.tree.DecisionTreeClassifier`   | Classification using decision trees.                          |
+| `sklearn.ensemble.RandomForestClassifier` | Ensemble method using multiple decision trees for classification. |
+| `sklearn.ensemble.GradientBoostingClassifier` | Boosting technique for building strong classifiers.           |
+| `sklearn.neighbors.KNeighborsClassifier` | Classifies data points based on their nearest neighbors.      |
+| `sklearn.naive_bayes.GaussianNB`        | Naive Bayes classifier for normally distributed data.         |
+
+---
+
+### **3.2. Regression Models**
+
+| **Class**                               | **Purpose**                                                   |
+|-----------------------------------------|---------------------------------------------------------------|
+| `sklearn.linear_model.LinearRegression` | Predicts continuous target values based on input features.    |
+| `sklearn.linear_model.Ridge`            | Regularized linear regression with L2 regularization.         |
+| `sklearn.linear_model.Lasso`            | Regularized linear regression with L1 regularization.         |
+| `sklearn.tree.DecisionTreeRegressor`    | Regression using decision trees.                              |
+| `sklearn.ensemble.RandomForestRegressor`| Ensemble method for regression using multiple decision trees. |
+
+---
+
+## **4. Unsupervised Learning Algorithms**
+
+### **4.1. Clustering**
+
+| **Class**                                | **Purpose**                                                   |
+|------------------------------------------|---------------------------------------------------------------|
+| `sklearn.cluster.KMeans`                 | Partitions data into `k` clusters.                            |
+| `sklearn.cluster.DBSCAN`                 | Density-Based Spatial Clustering of Applications with Noise.  |
+| `sklearn.cluster.AgglomerativeClustering`| Hierarchical clustering by merging clusters iteratively.      |
+| `sklearn.cluster.MeanShift`              | Groups data by finding high-density regions.                  |
+
+### **4.2. Dimensionality Reduction**
+
+| **Class**                                | **Purpose**                                                   |
+|------------------------------------------|---------------------------------------------------------------|
+| `sklearn.decomposition.PCA`              | Principal Component Analysis for reducing dimensionality.     |
+| `sklearn.decomposition.TruncatedSVD`     | Singular Value Decomposition for sparse data.                 |
+| `sklearn.decomposition.NMF`              | Non-negative Matrix Factorization for feature reduction.      |
+
+---
+
+## **5. Feature Engineering and Selection**
+
+### **Feature Selection for Classification and Regression**
+
+| **Class/Function**                       | **Purpose**                                                   |
+|------------------------------------------|---------------------------------------------------------------|
+| `sklearn.feature_selection.SelectKBest`  | Selects the top `k` features based on a scoring function.      |
+| `sklearn.feature_selection.RFE`          | Recursively removes the least important features.             |
+| `sklearn.feature_selection.SelectFromModel` | Selects features based on model-specific importance scores.    |
+
+---
+
+## **6. Text and Natural Language Processing (NLP)**
+
+### **Text Feature Extraction**
+
+| **Class**                                | **Purpose**                                                   |
+|------------------------------------------|---------------------------------------------------------------|
+| `sklearn.feature_extraction.text.CountVectorizer` | Converts a collection of text documents into token counts.     |
+| `sklearn.feature_extraction.text.TfidfVectorizer` | Converts text documents into a matrix of term frequencies.     |
+| `sklearn.feature_extraction.text.HashingVectorizer` | Efficient text vectorization using the hashing trick.          |
+
+---
+
+## **7. Pipelines and Workflows (`sklearn.pipeline`)**
+
+Pipelines enable the chaining of preprocessing steps, feature engineering, and modeling into a single workflow.
+
+| **Class/Function**                       | **Purpose**                                                   |
+|------------------------------------------|---------------------------------------------------------------|
+| `sklearn.pipeline.Pipeline`              | Chains multiple processing steps into a single workflow.      |
+| `sklearn.pipeline.FeatureUnion`          | Combines the output of multiple feature extraction methods.   |
+
+---
+
+## **8. Model Evaluation and Metrics (`sklearn.metrics`)**
+
+### **8.1. Classification Metrics**
+
+| **Function**                             | **Purpose**                                                   |
+|------------------------------------------|---------------------------------------------------------------|
+| `sklearn.metrics.accuracy_score`         | Computes the accuracy of a classification model.              |
+| `sklearn.metrics.precision_score`        | Calculates the precision of predictions.                      |
+| `sklearn.metrics.recall_score`           | Calculates the recall of predictions.                         |
+| `sklearn.metrics.f1_score`               | Computes the harmonic mean of precision and recall.           |
+| `sklearn.metrics.confusion_matrix`       | Summarizes prediction results with true/false positives/negatives. |
+
+### **8.2. Regression Metrics**
+
+| **Function**                             | **Purpose**                                                   |
+|------------------------------------------|---------------------------------------------------------------|
+| `sklearn.metrics.mean_squared_error`     | Computes the mean squared error between predictions and true values. |
+| `sklearn.metrics.r2_score`               | Measures the proportion of variance explained by the model.   |
+
+---
+
+## **9. Advanced Topics**
+
+### **9.1. Model Interpretability (`sklearn.inspection`)**
+
+| **Function**                             | **Purpose**                                                   |
+|------------------------------------------|---------------------------------------------------------------|
+| `sklearn.inspection.permutation_importance` | Computes feature importance by permutation.                   |
+
+### **9.2. Anomaly Detection**
+
+| **Class**                                | **Purpose**                                                   |
+|------------------------------------------|---------------------------------------------------------------|
+| `sklearn.ensemble.IsolationForest`       | Detects anomalies by isolating observations that differ.      |
+| `sklearn.covariance.EllipticEnvelope`    | Fits a Gaussian distribution to identify outliers.            |
+
+---
+
+## **10. Summary Table**
+
+| **Module**                 | **Classes/Functions**                  | **Purpose**                                                   |
+|----------------------------|----------------------------------------|---------------------------------------------------------------|
+| `sklearn.preprocessing`     | `StandardScaler`, `MinMaxScaler`       | Data preprocessing (scaling, encoding, transformations).      |
+| `sklearn.model_selection`   | `GridSearchCV`, `KFold`               | Model selection and hyperparameter tuning.                   |
+| `sklearn.feature_extraction.text` | `TfidfVectorizer`, `CountVectorizer` | Text feature extraction.                                       |
+| `sklearn.pipeline`          | `Pipeline`, `FeatureUnion`            | Streamlined workflows for machine learning.                  |
+| `sklearn.metrics`           | `accuracy_score`, `f1_score`          | Model evaluation metrics for classification and regression.   |
+
+---
+
+For further details, visit the official [Scikit-learn documentation](https://scikit-learn.org/stable/).

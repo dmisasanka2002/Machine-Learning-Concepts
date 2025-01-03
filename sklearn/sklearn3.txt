@@ -1,0 +1,123 @@
+# **Missing Data for Scikit-learn Overview**
+
+This markdown file includes additional missing methods, classes, or sections for the Scikit-learn overview. Each addition is specified under its appropriate section or added as a new section if it doesn't fit existing ones.
+
+---
+
+## **1. Data Preprocessing (`sklearn.preprocessing`)**
+
+| **Class/Function**                        | **Purpose**                                                   |
+|-------------------------------------------|---------------------------------------------------------------|
+| `sklearn.preprocessing.OrdinalEncoder`    | Encodes categorical features as ordinal integers.             |
+| `sklearn.preprocessing.PowerTransformer`  | Applies a power transformation to stabilize variance and make data more Gaussian-like. |
+| `sklearn.preprocessing.QuantileTransformer` | Transforms features to follow a uniform or normal distribution. |
+
+---
+
+## **2. Model Selection and Hyperparameter Tuning (`sklearn.model_selection`)**
+
+| **Class/Function**                             | **Purpose**                                                   |
+|------------------------------------------------|---------------------------------------------------------------|
+| `sklearn.model_selection.LeaveOneOut`          | Cross-validation method leaving one sample out as the validation set. |
+| `sklearn.model_selection.TimeSeriesSplit`      | Split data for cross-validation in time series problems.       |
+
+---
+
+## **3. Supervised Learning Algorithms**
+
+### **3.1. Classification Models**
+
+| **Class**                                    | **Purpose**                                                   |
+|----------------------------------------------|---------------------------------------------------------------|
+| `sklearn.discriminant_analysis.LinearDiscriminantAnalysis` | Dimensionality reduction and classification for linearly separable classes. |
+| `sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis` | Similar to LDA but works with non-linear decision boundaries.  |
+
+### **3.2. Regression Models**
+
+| **Class**                                    | **Purpose**                                                   |
+|----------------------------------------------|---------------------------------------------------------------|
+| `sklearn.linear_model.ElasticNet`            | Regression with both L1 and L2 regularization.                |
+| `sklearn.linear_model.SGDRegressor`          | Linear regression optimized using stochastic gradient descent. |
+| `sklearn.gaussian_process.GaussianProcessRegressor` | Probabilistic regression model using Gaussian processes.       |
+
+---
+
+## **4. Unsupervised Learning Algorithms**
+
+### **4.1. Clustering**
+
+| **Class**                                    | **Purpose**                                                   |
+|----------------------------------------------|---------------------------------------------------------------|
+| `sklearn.cluster.SpectralClustering`         | Clustering using graph-based methods for non-linear separable data. |
+| `sklearn.cluster.Birch`                      | Clustering using the Balanced Iterative Reducing and Clustering method. |
+
+---
+
+## **5. Feature Engineering and Selection**
+
+| **Class/Function**                           | **Purpose**                                                   |
+|----------------------------------------------|---------------------------------------------------------------|
+| `sklearn.feature_selection.mutual_info_classif` | Mutual information for feature selection in classification problems. |
+| `sklearn.feature_selection.mutual_info_regression` | Mutual information for feature selection in regression problems. |
+
+---
+
+## **6. Text and Natural Language Processing (NLP)**
+
+| **Class**                                    | **Purpose**                                                   |
+|----------------------------------------------|---------------------------------------------------------------|
+| `sklearn.feature_extraction.text.CountVectorizer(stop_words='english')` | Tokenizes text while ignoring common stop words in English.    |
+
+---
+
+## **7. Pipelines and Workflows (`sklearn.pipeline`)**
+
+| **Class/Function**                           | **Purpose**                                                   |
+|----------------------------------------------|---------------------------------------------------------------|
+| `sklearn.compose.ColumnTransformer`          | Applies different transformations to different columns in the dataset. |
+
+---
+
+## **8. Model Evaluation and Metrics (`sklearn.metrics`)**
+
+### **8.1. Classification Metrics**
+
+| **Function**                                 | **Purpose**                                                   |
+|----------------------------------------------|---------------------------------------------------------------|
+| `sklearn.metrics.roc_auc_score`              | Computes the area under the receiver operating characteristic curve. |
+| `sklearn.metrics.hamming_loss`               | Measures the fraction of incorrect labels in multi-label classification. |
+
+### **8.2. Regression Metrics**
+
+| **Function**                                 | **Purpose**                                                   |
+|----------------------------------------------|---------------------------------------------------------------|
+| `sklearn.metrics.mean_absolute_error`        | Computes the mean absolute error between predictions and true values. |
+
+---
+
+## **9. Advanced Topics**
+
+### **9.1. Model Interpretability (`sklearn.inspection`)**
+
+| **Function**                                 | **Purpose**                                                   |
+|----------------------------------------------|---------------------------------------------------------------|
+| `sklearn.inspection.partial_dependence`      | Computes partial dependence of features to analyze relationships. |
+
+### **9.2. Anomaly Detection**
+
+| **Class**                                    | **Purpose**                                                   |
+|----------------------------------------------|---------------------------------------------------------------|
+| `sklearn.svm.OneClassSVM`                    | Unsupervised anomaly detection using support vector machines. |
+
+---
+
+## **10. Summary Table (Additional Entries)**
+
+| **Module**                    | **Classes/Functions**              | **Purpose**                                                   |
+|-------------------------------|------------------------------------|---------------------------------------------------------------|
+| `sklearn.preprocessing`       | `OrdinalEncoder`, `PowerTransformer` | Advanced preprocessing for categorical and continuous features. |
+| `sklearn.model_selection`     | `LeaveOneOut`, `TimeSeriesSplit`   | Cross-validation techniques for specific use cases.           |
+| `sklearn.discriminant_analysis` | `LinearDiscriminantAnalysis`       | Classification and dimensionality reduction.                  |
+| `sklearn.metrics`             | `roc_auc_score`, `mean_absolute_error` | Additional metrics for evaluation.                            |
+
+---
