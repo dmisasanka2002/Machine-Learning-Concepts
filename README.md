@@ -10,8 +10,7 @@ deliberately out of scope** - they live in a separate repository; what's
 here is everything classical.
 
 > New to this repo? Start with **[`LEARNING-PATH.md`](LEARNING-PATH.md)**
-> or open **[`learning-path-interface.html`](learning-path-interface.html)**
-> directly in a browser - both walk the entire repository as three
+> directly in a browser - it walk the entire repository as three
 > passes (Beginner → Intermediate → Advanced) instead of one flat file
 > list.
 
@@ -66,11 +65,6 @@ Machine-Learning-Concepts/
 - **Comparison, not just coverage.** `11_Algorithm_Selection_and_Comparison/`
   puts every algorithm head-to-head on real data with a decision flowchart,
   rather than leaving you to guess which one to reach for.
-- **Honest about its own limits.** `43-FINAL-VERDICT-AND-ADVANCED-TIER.md`
-  explains exactly what was deliberately left out (full Gaussian
-  Processes, Probabilistic Graphical Models, Causal ML as complete
-  sections) and why - pointer notebooks in `99_Advanced_Topics_Pointers/`
-  cover them at an awareness level instead.
 
 ## Getting Started
 
@@ -102,36 +96,10 @@ medical data - used throughout `02_Data/10_imbalanced_data_handling.ipynb`
 and the anomaly-detection project), plus several synthetic sets for
 controlled worked examples.
 
-## For migrators: building this structure from the original flat repo
-
-If you're moving from the original `01 - intro_to_ML.ipynb` /
-`Concepts/` / `Supervised Learning/` layout into the structure above,
-`42-MIGRATION-GUIDE.md` has an exact, tested `git mv` script (run
-end-to-end against a real clone with zero errors) plus the manual steps
-that can't be scripted (splitting a few multi-topic notebooks, fixing
-embedded image paths). `23-FINAL-COMPLETE-FILE-STRUCTURE.md` has the
-complete old-path → new-path mapping for every existing file, including
-the original `images/`, `sklearn/`, and the stray `.sav` model file.
-
-## Contributing
-
-Contributions are welcome. If adding a new algorithm or concept notebook,
-please follow `44-NOTEBOOK-TEMPLATE-V2.md`'s 12-section structure (Theory
-→ Derivation → Numerical Example → Visual → From-Scratch → sklearn →
-Experiment → Failure Cases → Assumptions → Complexity → Exercises →
-Research Notes) so new content stays consistent with the rest of the repo.
 
 ## License
 
 MIT License.
-
-## Acknowledgements
-
-Original repository structure and datasets: dmisasanka2002. Expanded
-into its current form with full mathematical derivations, verified
-numerical examples, generated visualizations, and a complete curriculum
-structure - see `00-MASTER-INDEX-AND-ROADMAP.md` for the full history of
-that expansion across passes.
 
 ---
 
