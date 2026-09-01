@@ -1,100 +1,106 @@
-# Machine Learning Concepts
+# Machine-Learning-Concepts
 
-This repository is a comprehensive collection of resources, Jupyter notebooks, datasets, and images designed to help you learn and understand the core concepts of Machine Learning (ML). It covers foundational topics, practical implementations, and advanced techniques, making it suitable for beginners and intermediate learners alike.
+A comprehensive, hand-verified **classical/statistical Machine Learning**
+repository - from first principles through the theory needed to read ML
+research papers. Every algorithm notebook derives its math from scratch,
+works a numerical example by hand (checked against code, not just
+asserted), and implements the algorithm twice: once in raw NumPy, once
+with scikit-learn on real data. **Deep Learning and Deep RL are
+deliberately out of scope** - they live in a separate repository; what's
+here is everything classical.
+
+> New to this repo? Start with **[`LEARNING-PATH.md`](LEARNING-PATH.md)**
+> directly in a browser - it walk the entire repository as three
+> passes (Beginner → Intermediate → Advanced) instead of one flat file
+> list.
 
 ## Project Structure
 
 ```
-.
-├── 01 - intro_to_ML.ipynb                # Introduction to Machine Learning
-├── Concepts/                              # Thematic notebooks on ML concepts
-│   ├── 02 - supervised_learning.ipynb
-│   ├── 03 - unsupervised_learning.ipynb
-│   ├── 04 - reinforcement_learning.ipynb
-│   ├── 05 - data_preparation.ipynb
-│   ├── 06 - model_training.ipynb
-│   ├── 07 - models_evaluation_methods.ipynb
-│   ├── 08 - feature_engineering.ipynb
-│   ├── 09 - cross_validation.ipynb
-│   ├── 10 - hyperparameter_optimization.ipynb
-│   ├── 5.1 - advance_data_transformation.ipynb
-│   ├── 5.2 - data_cleaning_process.ipynb
-│   ├── 8.1 - feature_selection_methods.ipynb
-│   ├── model_with_pipline.sav             # Example model pipeline
-├── datasets/                              # Datasets for hands-on practice
-│   ├── cardio_modify.csv
-│   ├── Customers.csv
-│   ├── insurance.csv
-│   ├── Iris.csv
-│   ├── ...
-├── images/                                # Visual aids and diagrams
-│   ├── ...
-├── sklearn/                               # Scikit-learn notes and summaries
-│   ├── sklearn1.txt
-│   ├── sklearn2.txt
-│   ├── sklearn3.txt
-│   ├── sklearn4.txt
-│   ├── summery_of_sklearn.ipynb
-├── Supervised Learning/                   # In-depth supervised learning notebooks
-│   ├── 01 - Linear Regression.ipynb
-│   ├── 02 - Implement Linear Regression Model.ipynb
-│   ├── ...
-├── Unsupervised Learning/                 # In-depth unsupervised learning notebooks
-│   ├── ...
-├── Reinforcement Learning/                # In-depth reinforcement learning notebooks
-│   ├── ...
+Machine-Learning-Concepts/
+├── 00_Mathematics/                        # Linear algebra, calculus, probability, statistics
+├── 01_Foundations/                        # What is ML, terminology, paradigms, workflow
+├── 02_Data/                               # Types, sampling, cleaning, encoding, leakage
+├── 03_Supervised_Learning/
+│   ├── Regression/                        # Linear, Polynomial, Ridge, Lasso, Elastic Net, GLMs, SVR
+│   ├── Classification/                    # Logistic, KNN, Naive Bayes, LDA/QDA, Trees, SVM, Kernels
+│   └── Ensemble_Learning/                 # Bagging, Random Forest, AdaBoost, Gradient Boosting, Stacking
+├── 04_Unsupervised_Learning/              # K-Means, Hierarchical, DBSCAN, GMM, PCA, t-SNE/UMAP, Anomaly Detection
+├── 05_Model_Evaluation/                   # Metrics, calibration, cross-validation, statistical comparison
+├── 06_Optimization/                       # Convexity, gradient descent family, Lagrangian duality
+├── 07_ML_Theory/                          # ERM, bias-variance, VC dimension, no-free-lunch, Bayes error
+├── 08_Classical_Reinforcement_Learning/   # MDPs, Bellman equations, Q-learning (classical/tabular only)
+├── 09_Interpretability/                   # Feature importance, PDP/ICE, SHAP
+├── 10_Responsible_ML/                     # Bias, fairness metrics, robustness, reproducibility
+├── 11_Algorithm_Selection_and_Comparison/ # Decision flowchart, head-to-head benchmarks, complexity table
+├── 12_Projects/                           # 5 end-to-end capstones on the datasets below
+├── 99_Advanced_Topics_Pointers/           # Gaussian Processes, PGMs, Causal ML - awareness, not full sections
+│
+├── datasets/                              # insurance.csv, Iris.csv, Customers.csv, cardio_modify.csv, ...
+├── _assets/                               # Every generated figure/animation (+ legacy/, the repo's original images)
+├── _scripts/                              # Reusable visualization/animation generators behind every figure
+├── _saved_models/                         # Persisted model artifacts (e.g. model_with_pipeline.sav)
+├── 13_sklearn_reference/                  # Quick sklearn API notes
+│
+├── LEARNING-PATH.md                       # The full 3-pass reading order, file by file
+├── learning-path-interface.html           # The same path, as an interactive checklist
+└── README.md                              # You are here
 ```
 
-## Contents
+## What makes this different from a typical ML notebook collection
 
-- **Introductory Notebooks:**
-  - Overview of machine learning, its types, and applications.
-- **Concepts:**
-  - Theoretical explanations and practical guides on supervised, unsupervised, and reinforcement learning.
-  - Data preparation, feature engineering, model evaluation, cross-validation, and hyperparameter optimization.
-- **Supervised/Unsupervised/Reinforcement Learning:**
-  - Step-by-step implementations and case studies for each ML paradigm.
-- **Datasets:**
-  - Real-world and synthetic datasets for experimentation and practice.
-- **Images:**
-  - Diagrams and visualizations to aid understanding of ML concepts.
-- **Scikit-learn Resources:**
-  - Notes and summaries on using the scikit-learn library for ML tasks.
+- **Every derivation is complete.** Not "the formula is X" - the actual
+  steps from objective function to closed form or update rule.
+- **Every numerical example is hand-worked AND verified.** Each notebook
+  computes a small example by hand, in full, then re-computes it in
+  Python and checks the two match. Where the hand arithmetic was wrong on
+  first pass during this repo's construction (it happened three times),
+  the text was corrected against the verified computation, not left
+  standing.
+- **Every algorithm gets a real figure or animation**, generated by a
+  script in `_scripts/`, not a stock image - including an animated trace
+  of Lloyd's algorithm converging, a live-executed benchmark comparing 8
+  classifiers on real data, and a t-SNE/UMAP/PCA side-by-side on the
+  digits dataset.
+- **Comparison, not just coverage.** `11_Algorithm_Selection_and_Comparison/`
+  puts every algorithm head-to-head on real data with a decision flowchart,
+  rather than leaving you to guess which one to reach for.
 
 ## Getting Started
 
 1. **Clone the repository:**
-   ```powershell
+   ```bash
    git clone https://github.com/dmisasanka2002/Machine-Learning-Concepts.git
    ```
-2. **Open in Jupyter Notebook or VS Code:**
-   - Navigate to the desired notebook and start exploring the concepts interactively.
-3. **Install Required Packages:**
-   - Most notebooks use Python libraries such as `numpy`, `pandas`, `matplotlib`, and `scikit-learn`.
-   - Install dependencies using pip:
-     ```powershell
-     pip install numpy pandas matplotlib scikit-learn
-     ```
+2. **Pick your entry point:**
+   - New to ML entirely → open `LEARNING-PATH.md` and start at Level 1.
+   - Already comfortable with the basics → open
+     `11_Algorithm_Selection_and_Comparison/01_how_to_choose_an_algorithm.ipynb`
+     to orient, then jump straight into Level 2 of the learning path.
+   - Preparing to read ML research papers → Level 3, starting with
+     `07_ML_Theory/`.
+3. **Install dependencies:**
+   ```bash
+   pip install numpy pandas matplotlib scikit-learn scipy statsmodels
+   ```
+   A few advanced/light-treatment notebooks additionally use
+   `umap-learn`, `scikit-learn-extra`, and `sympy` - each notebook that
+   needs one says so in its Practical Implementation section.
 
-## Usage
+## Datasets
 
-- Browse through the notebooks in the order of your interest or follow the numbering for a structured learning path.
-- Use the datasets provided for hands-on practice and experimentation.
-- Refer to the images for conceptual clarity.
+All real, not synthetic-only: `insurance.csv` (regression), `Iris.csv`
+and `Customers.csv` (classification/clustering staples),
+`kyphosis.csv` and `cardio_modify.csv` (small, realistically imbalanced
+medical data - used throughout `02_Data/10_imbalanced_data_handling.ipynb`
+and the anomaly-detection project), plus several synthetic sets for
+controlled worked examples.
 
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests to improve the content, add new notebooks, or suggest datasets.
 
 ## License
 
-This project is licensed under the MIT License.
-
-## Acknowledgements
-
-- Inspired by popular ML courses and open-source resources.
-- Datasets sourced from public repositories and Kaggle.
+MIT License.
 
 ---
 
-Happy Learning! 🚀
+Happy learning. 🚀
